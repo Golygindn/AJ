@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'HelveticaNeueRegular';
+    src: url("fonts/HelveticaNeue.ttc");
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+
+@font-face{
+    font-family: 'HelveticaNeueBold';
+    src: url("/fonts/HelveticaNeueCyr-Bold.ttf");
+    font-weight: Bold;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'HelveticaNeueMedium';
+    src: url("/fonts/HelveticaNeueCyr-Medium.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+*/
+
