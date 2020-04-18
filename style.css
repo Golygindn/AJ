@@ -35,15 +35,15 @@ body {
     color: #ffffff;
     font-size: 18px;
     margin-left: 60px;
-    font-weight: 600;
-    font-family: "HelveticaNeueRegular", serif;
+    font-weight: 500;
+    font-family: "Helvetica Neue", serif;
 }
 
 .menu_item_1 {
     color: #999999;
     font-size: 18px;
-    font-weight: 600;
-    font-family: "HelveticaNeueRegular", serif;
+    font-weight: 500;
+    font-family: "Helvetica Neue", serif;
 }
 
 /*NEW CODE*/
@@ -75,7 +75,7 @@ body {
 
 
 .box {
-    /*width: 700px;*/
+    padding: 40px;
     height: 398px;
     background-color: #fafafa;
     border: 1px solid #CCCCCC;
@@ -102,4 +102,49 @@ footer{
     margin-top: 40px;
     height: 124px;
     background-image: linear-gradient(180deg, #626262 0%, #333333 100%);
+}
+
+
+p{
+    font-size: 1.875em;
+    font-family: "Helvetica Neue", serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.iphone{
+    max-width: 1338px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price{
+    margin-top: 40px;
+    display: block;
+}
+
+.block{
+    display: block;
+}
+
+.stroke_price{
+    font-size: 21px;
+    font-family: "Helvetica Neue",serif;
+
+    margin-top:24px;
+    margin-bottom:24px;
+}
+
+color{
+    color: #3F95FD;
+}
+
+/*------Image------*/
+
+.imgphone{
+    justify-content: flex-end;
+    background: url("assets/iphonepro.png") no-repeat;
+    width: 398px;
+    height: 398px;
 }
