@@ -7,7 +7,7 @@ body {
 
 /*OLD CODE*/
 .header {
-    background-image: linear-gradient(180deg, #333333 0%, #494949 52%, #333333 100%);
+    background-image: linear-gradient(180deg, #1E1E1E 0%, #333333 98%);
     height: 50px;
     width: 100%;
     display: flex;
