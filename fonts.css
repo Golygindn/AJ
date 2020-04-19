@@ -1,26 +1,24 @@
 @font-face{
-    font-family: 'HelveticaNeueRegular';
-    src: url("fonts/HelveticaNeue.ttc");
+    font-family: 'Helvetica_Neue_medium';
+    src: url("fonts/HelveticaNeueCyr-Medium.woff");
     font-weight: normal;
     font-style: normal;
 }
-/*
 
 @font-face{
-    font-family: 'HelveticaNeueBold';
-    src: url("/fonts/HelveticaNeueCyr-Bold.ttf");
+    font-family: 'Helvetica_Neue_Bold';
+    src: url("fonts/HelveticaNeueCyr-Bold.woff");
     font-weight: Bold;
     font-style: normal;
 }
 
 
 @font-face{
-    font-family: 'HelveticaNeueMedium';
-    src: url("/fonts/HelveticaNeueCyr-Medium.ttf");
+    font-family: 'Helvetica_Neue_light';
+    src: url("fonts/HelveticaNeueCyr-Light.woff");
     font-weight: 600;
     font-style: normal;
 }
 
 
-*/
 
