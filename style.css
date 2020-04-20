@@ -35,7 +35,7 @@ body {
 .menu_item {
     letter-spacing:1px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.1rem;
     margin-left: 60px;
     font-weight: 500;
     font-family: Helvetica_Neue_medium,serif;
@@ -44,7 +44,7 @@ body {
 .menu_item_1 {
     letter-spacing:1px;
     color: #999999;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
     font-family: Helvetica_Neue_medium,serif;
 }
@@ -76,6 +76,15 @@ body {
     grid-column-end: 3;
 }
 
+.box6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.box7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 .box {
     padding: 50px 20px 50px 50px;
@@ -93,7 +102,6 @@ body {
 
 .wrapper {
     width: 1420px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,6 +122,8 @@ footer{
     margin-top: 40px;
     height: 124px;
     background-image: linear-gradient(180deg, #626262 0%, #333333 100%);
+    display: flex;
+    align-items: center;
 }
 
 
@@ -146,7 +156,7 @@ p{
 }
 
 .stroke_price{
-    font-size: 21px;
+    font-size: 1.5em;
     font-family: Helvetica_Neue_medium,serif;
     margin-top:24px;
     margin-bottom:24px;
@@ -156,8 +166,57 @@ color{
     color: #3F95FD;
 }
 
+.footertext{
+    width: 810px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: Helvetica_Neue_medium,serif;
+}
 
 
+
+.cs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+}
+.text{
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Helvetica_Neue_medium,serif;
+    font-size: 0.8rem;
+}
+
+
+h3{
+    font-size: 1rem;
+    font-family: Helvetica_Neue_Bold,serif;
+    color:#CCCCCC;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+a{
+    color: #3F95FD;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline ;
+}
 
 /*------Image------*/
 
@@ -183,8 +242,9 @@ color{
 }
 
 .imgimac{
+    margin-top: 20px;
     background: url("assets/iMac.png") no-repeat;
-    width: 389px;
+    width: 329px;
     height: 315px;
     background-size: contain;
 }
@@ -197,4 +257,27 @@ color{
     margin-right: -20px;
     margin-top: 120px;
     border-bottom-right-radius:10px;
+}
+
+.imgwatch{
+    background: url("assets/Watch.png") no-repeat;
+    width: 328px;
+    height: 341px;
+    background-size: contain;
+}
+
+.music{
+    margin-top: 50px;
+    margin-right: 10px;
+    background: url("assets/HomePod.png") no-repeat;
+    width: 411px;
+    height: 233px;
+    background-size: contain;
+
+}
+
+.inst{
+    background: url("assets/Instagramm.svg") no-repeat;
+    width: 24px;
+    height: 24px;
 }
