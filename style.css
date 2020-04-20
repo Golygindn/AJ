@@ -1,6 +1,7 @@
+*{box-sizing: border-box;}
+
 body {
     margin: 0;
-    box-sizing: border-box;
     background-color: #F7F7F7;
 }
 
@@ -77,12 +78,17 @@ body {
 
 
 .box {
-    padding: 60px;
-    height: 320px;
+    padding: 50px 20px 50px 50px;
+    height: 420px;
     background-color: #fafafa;
     border: 1px solid #CCCCCC;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.10);
     border-radius: 10px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
 }
 
 .wrapper {
@@ -93,6 +99,7 @@ body {
 }
 
 .grid {
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1420px;
@@ -101,7 +108,6 @@ body {
     grid-row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     /*grid-template-columns: max-content 1fr 1fr;*/
-
 }
 
 footer{
@@ -118,11 +124,15 @@ p{
     margin: 0;
 }
 
-.iphone{
+.Iphone{
     max-width: 1338px;
     display: flex;
     justify-content: space-between;
+}
 
+.device{
+    display: flex;
+    justify-content: space-between;
 }
 
 .price{
@@ -132,6 +142,7 @@ p{
 
 .block{
     display: block;
+    box-sizing: border-box;
 }
 
 .stroke_price{
@@ -145,11 +156,29 @@ color{
     color: #3F95FD;
 }
 
+
+
+
 /*------Image------*/
 
 .imgphone{
-    justify-content: flex-end;
     background: url("assets/iphonepro.png") no-repeat;
-    width: 398px;
-    height: 368px;
+    background-size: contain;
+    width: 368px;
+    height: 348px;
+}
+
+.imgIpad{
+    background: url("assets/iPadpro.png") no-repeat;
+    width: 276px;
+    height: 341px;
+}
+
+
+.imgmacbook{
+    justify-content: flex-end;
+    background: url("assets/macbook.png") no-repeat;
+    width: 320px;
+    height: 352px;
+    margin-right: -20px;
 }
