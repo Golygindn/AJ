@@ -176,9 +176,25 @@ color{
 
 
 .imgmacbook{
-    justify-content: flex-end;
     background: url("assets/macbook.png") no-repeat;
     width: 320px;
     height: 352px;
     margin-right: -20px;
+}
+
+.imgimac{
+    background: url("assets/iMac.png") no-repeat;
+    width: 389px;
+    height: 315px;
+    background-size: contain;
+}
+
+.imgcases{
+    background: url("assets/iphonecases.png") no-repeat;
+    width: 516px;
+    height: 248px;
+    background-size: cover;
+    margin-right: -20px;
+    margin-top: 120px;
+    border-bottom-right-radius:10px;
 }
